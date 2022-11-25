@@ -14,9 +14,7 @@
 
 # 📖 [Jaccy_Shopping_Website] <a name="jaccy-shopping-website"></a>
 
-> This is a website for shopping different kinds of wears. It has the home and about pages with various sections and a responsive layout.
-
-**[Jaccy_Shopping_Website]** is a...
+**[Jaccy_Shopping_Website]** is an imaginary website for shopping different kinds of wears. It has the home and about pages with various sections and a responsive layout.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -30,7 +28,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]( https://jacintangwu.github.io/Capstone-Module1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
