@@ -43,7 +43,7 @@ const myProduct = [
   },
 ];
 
-//= == Generating feature product section dynamically===//
+//= == Generating featured product section dynamically===//
 const featured = document.getElementById('featured');
 featured.innerHTML += myProduct.map((products) => `
 <div class="product-container">
