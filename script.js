@@ -46,14 +46,14 @@ const myProduct = [
 //= == Generating feature product section dynamically===//
 const featured = document.getElementById('featured');
 featured.innerHTML += myProduct.map((products) => `
-<div class="pro-container">
-<div class="pro">
+<div class="product-container">
+<div class="product-img">
     <img src='${products.image}' alt="">
 </div>
-<div class="des">
+<div class="product-description">
     <span>${products.title}</span>
     <h5>${products.description}</h5>
-   <div class="star-icon">${products.star.map((stars) => `
+   <div class="star-icons">${products.star.map((stars) => `
     ${stars}
     `).join('')}</div>
     <h4>${products.amount}</h4>
@@ -67,13 +67,12 @@ const header3 = document.querySelector('.header3');
 const xBtn = document.querySelector('.x-btn');
 const navBar3 = document.querySelector('#navbar3');
 
-
 mobile.addEventListener('click', () => {
   header3.classList.toggle('active');
-  xBtn.classList.toggle('show')
+  xBtn.classList.toggle('show');
 });
 
 navBar3.addEventListener('click', () => {
   header3.classList.toggle('active');
-  xBtn.classList.toggle('show')
+  xBtn.classList.toggle('show');
 });

@@ -11,39 +11,64 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
 </head>
+<header id="header">
+    <div class="navbar">
+      <ul class="navlinks">
+        <li class="icon"><i class="fab fa-facebook-f"></i></li>
+        <li class="icon"><i class="fab fa-twitter"></i></li>
+        <li class="icon">English</li>
+        <li class="icon">My page</li>
+        <li class="icon">Log out</li>
+      </ul>
+    </div>
+  </header>
 <body>
-    <section id="header">
-        <div class="navbar">
-            <ul class="navlinks">
-                <li class="icon"><i class="fab fa-facebook-f"></i></li>
-                <li class="icon"><i class="fab fa-twitter"></i></li>
-                <li class="icon">English</li>
-                <li class="icon">My page</li>
-                <li class="icon">Log out</li>
-        </ul>
-        </div>
-    </section>
-
-    <section class="header2">
-        <a href="./index.html"><h2>Jaccy</h2></a>
-        <div>
-            <ul id="navbar2">
-                <li><a href="#">About</a></li>
+    <div class="head">
+        <nav class="nav">
+          <!-- desktop versiom -->
+          <div class="header2">
+            <a href="./index.html"><h2>Jaccy</h2></a>
+            <div>
+              <ul id="navbar2">
+                <li><a href="./about.html">About</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
+              </ul>
+            </div>
+  
+          </div>
+          <!-- mobile version-->
+          <div class="header3">
+            <div class="mobile">
+              <ion-icon name="menu"></ion-icon>
+              <ion-icon name="close" class="x-btn"></ion-icon>
+            </div>
+            <div class="nav-list">
+              <ul id="navbar3">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+        <div id="hero">
+          <div class="hero-container">
+            <h4>Jaccy Online Shopping</h4>
+            <h2>
+              Super value deal <br />
+              On all product
+            </h2>
+            <p>Save more with coupons & up to 70% off!</p>
+            <button>Shop more</button>
+          </div>
         </div>
-    </section>
-
-    <section id="hero">
-        <h4>Jaccy Online Shopping</h4>
-        <h2>Super value deal <br/>
-            On all product</h2>
-        <p>Save more with coupons & up to 70% off!</p>
-        <button>Shop more</button>
-    </section>
+      </div>
 
     <section id="about-page">
         <h3>Jaccy Online Shopping</h3>
@@ -114,6 +139,6 @@
     </footer>
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
