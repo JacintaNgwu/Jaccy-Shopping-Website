@@ -22,7 +22,7 @@
 
 1. HTML
 2. CSS
-3. JAVASCRIPT
+3. JS
 
 <!-- LIVE DEMO -->
 
