@@ -246,6 +246,13 @@ footer a {
   font-size: 15px;
   color: #3E3E3E;
 }
+footer a:hover {
+  color: #EC5242;
+}
+footer img:hover {
+  border: 5px dotted #EC5242;
+  border-radius: 5px;
+}
 /* About page */
 #about-page {
   display: flex;
@@ -476,17 +483,3 @@ footer a {
   object-fit: contain;
 }
 
-/* about page */
-/* #about-page h3 {
-  font-size: 18px;
-}
-#about-page p {
-  font-size: 12px;
-}
-
-#review h3 {
-  font-size: 18px;
-}
-#review p {
-  font-size: 10px;
-} */
