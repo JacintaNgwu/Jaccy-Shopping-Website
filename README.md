@@ -38,7 +38,7 @@
 
 ## 🚀 Loom Video <a name="loom-video"></a>
 
-- [Loom video Link](https://yourdeployedapplicationlink.com)
+- [Loom video Link](https://www.loom.com/share/2d412d3d7ec04d908d4e6eec482eedcb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +59,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone ["Click here"](https://github.com/JacintaNgwu/Portfolio-Mobile-first.git)
+git clone ["Click here"](https://github.com/JacintaNgwu/Capstone-Module1.git)
 
 ### Install
 
