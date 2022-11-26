@@ -17,7 +17,6 @@ body {
   width: 100%;
 }
 
-/* Home page */
 #header {
   background: #3e3e3e;
   display: flex;
@@ -316,7 +315,6 @@ footer {
   gap: 30px;
 }
 
-/* About page */
 #about-page {
   display: flex;
   flex-direction: column;
