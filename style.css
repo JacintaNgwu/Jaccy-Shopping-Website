@@ -58,6 +58,8 @@ footer h2 {
   -webkit-background-clip: text;
   color: transparent;
   margin-top: -10px;
+  font-size: 50px;
+  cursor: pointer;
 }
 
 .header2 h2 {
@@ -136,6 +138,7 @@ footer a:hover {
   border: 2px solid #ec5242;
   cursor: pointer;
   font-size: 20px;
+  transition: 0.2s ease;
 }
 
 #hero button:hover {
@@ -145,6 +148,7 @@ footer a:hover {
 
 #feature {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background: url(./image/feature.jpg);
@@ -157,7 +161,7 @@ footer a:hover {
   object-fit: contain;
   background-color: #3d4047;
   margin: 15px 5px;
-  padding: 10px 50px;
+  padding: 10px;
   text-align: center;
   cursor: pointer;
 }
@@ -169,6 +173,7 @@ footer a:hover {
 .product-img img {
   width: 100px;
   height: 100px;
+  margin: 10px;
   object-fit: contain;
 }
 
@@ -178,12 +183,41 @@ footer img:hover {
 }
 
 #feature .fe-box img {
-  width: 40%;
+  width: 50%;
 }
 
 #feature .fe-box h6 {
   color: #ec5242;
-   margin-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+footer p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.review-card p {
+  margin: 15px;
+  font-size: 16px;
+}
+
+.product-description p {
+  font-size: 16px;
+  color: #3d4047;
+}
+
+footer p:hover {
+  color: #ec5242;
+}
+
+#about-page p {
+  text-align: center;
+  font-size: 16px;
+}
+
+#review p {
+  padding-top: 20px;
+  font-size: 16px;
 }
 
 #feature .fe-box p {
@@ -204,8 +238,11 @@ footer img:hover {
   margin-inline: auto;
 }
 
-footer p {
-  font-size: 15px;
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
 }
 
 #product .text {
@@ -220,20 +257,6 @@ footer p {
 
 #product .text h2 {
   font-size: 30px;
-}
-
-.review-card p {
-  margin: 15px;
-}
-
-#about-page p {
-  text-align: center;
-  font-size: 16px;
-}
-
-#review p {
-  padding-top: 20px;
-  font-size: 16px;
 }
 
 #product .text p {
@@ -252,11 +275,6 @@ footer p {
   color: #ec5242;
 }
 
-.product-description p {
-  font-size: 16px;
-  color: #3d4047;
-}
-
 #banner {
   display: flex;
   flex-direction: column;
@@ -272,7 +290,6 @@ footer p {
   color: #b3b3b3;
   font-size: 50px;
   margin-top: 20px;
-  /* border-bottom: 3px solid #ec5242; */
 }
 
 #banner div {
@@ -286,7 +303,7 @@ footer p {
 #banner div * {
   width: 30%;
   filter: grayscale(100%) contrast(30%);
-  transition:  filter 1s 1ms;
+  transition: filter 1s 1ms;
 }
 
 footer {
@@ -297,20 +314,6 @@ footer {
   background: #f2f2f2;
   padding: 50px;
   gap: 30px;
-}
-
-footer h2 {
-  font-size: 50px;
-  cursor: pointer;
-}
-
-footer p {
-  font-size: 14px;
-  text-align: justify;
-}
-
-footer p:hover {
-  color: #ec5242;
 }
 
 /* About page */
@@ -363,10 +366,6 @@ footer p:hover {
   background-size: cover;
   text-align: center;
   justify-content: center;
-}
-
-.review-card p {
-  font-size: 16px;
 }
 
 #card1 {
@@ -480,8 +479,20 @@ footer p:hover {
     font-size: 16px;
   }
 
+  footer h2 {
+    font-size: 20px;
+  }
+
   #hero h2 {
     font-size: 20px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .product-description p {
+    font-size: 12px;
   }
 
   #hero p {
@@ -503,28 +514,26 @@ footer p:hover {
     flex-direction: column;
   }
 
-  #featured {
+  #feature .fe-box {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #3d4047;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
   }
 
-  #banner h4 {
-    font-size: 25px;
+  #feature .fe-box img {
+    width: 50px;
   }
 
-  #banner h2 {
-    font-size: 16px;
-    padding: 5px;
-  }
-
-  #banner .normal {
-    padding: 10px 15px;
-    font-size: 16px;
-  }
-
-  footer .col,
-  footer .payment {
-    display: none;
+  .fe-box > * {
+    padding: 0 5px;
+    text-align: left;
   }
 
   #review p {
@@ -532,26 +541,61 @@ footer p:hover {
     text-align: center;
   }
 
+  #feature .fe-box p {
+    font-size: 7px;
+  }
+
+  #featured {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #banner h3 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  #banner div {
+    gap: 10px;
+  }
+
   .review-container {
     display: flex;
     flex-direction: column;
   }
-}
 
-.featured-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-}
+  .featured-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
 
-.product-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-}
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
 
-.product-container > * {
-  padding: 10px;
+  .product-container > * {
+    padding: 10px;
+  }
+
+  .product-description span {
+    font-size: 16px;
+  }
+
+  .product-description h5 {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 30px;
+    gap: 10px;
+  }
 }
