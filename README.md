@@ -28,7 +28,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://jacintangwu.github.io/Capstone-Module1/)
+- [Live Demo Link]( https://jacintangwu.github.io/Jaccy-Shopping-Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,7 +57,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone ["Click here"](https://github.com/JacintaNgwu/Capstone-Module1.git)
+git clone ["Click here"](https://github.com/JacintaNgwu/Jaccy-Shopping-Website.git)
 
 ### Install
 
